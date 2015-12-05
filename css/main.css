@@ -92,14 +92,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#content {
+  width: 800px;
+  margin: auto;
+}
 
+#hangman {
+  width: 300px;
+  height: 500px;
+  background-image: url('/img/hangman0.png');
+  float: left;
+}
 
-
-
-
-
-
-
+#word {
+  font-size: 42pt;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 350px;
+  margin-left: -50px;
+}
+#guesses {
+  text-transform: uppercase;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 20pt;
+}
 
 
 
